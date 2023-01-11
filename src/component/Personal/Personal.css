@@ -1,0 +1,123 @@
+#personal {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1a1a1a;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 90px;
+  }
+  .personal-name {
+    display: flex;
+    font-size: 50px;
+    color: white;
+  }
+  #first-let {
+    font-family: "Fjalla One", sans-serif !important;
+    font-weight: 400;
+    font-size: 210px;
+    color: #6c5ef0;
+  }
+  .box-p {
+    width: 440px;
+    height: 480px;
+    background-color: #535353;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #personal-p {
+    font-size: 22px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  #mypic {
+    width: 460px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #Resumebtn {
+    background-color: #6c5ef0;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #Resumebtn:hover {
+    color: #6c5ef0;
+    background-color: white;
+    transition: 0.8s;
+  }
+  #Resumebtn:active {
+    scale: (0.9);
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    /* Personal */
+    #personal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #1a1a1a;
+      padding-top: 10px;
+      padding-bottom: 90px;
+    }
+    .personal-name {
+      font-size: 30px;
+      color: white;
+      margin-left: 80px;
+    }
+    #first-let {
+      font-family: "Fjalla One", sans-serif !important;
+      font-weight: 400;
+      font-size: 130px;
+      color: #6c5ef0;
+    }
+    .box-p {
+      width: 89%;
+      height: 56vh;
+      background-color: #535353;
+      border-radius: 20px;
+      margin: 20px;
+    }
+  
+    #mypic {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #Resumebtn {
+      background-color: #6c5ef0;
+      border-radius: 12px;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      float: right;
+      margin-right: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #Resumebtn:hover {
+      color: #6c5ef0;
+      background-color: white;
+      transition: 0.8s;
+    }
+    #Resumebtn:active {
+      scale: (0.9);
+    }
+}
+  
