@@ -1,4 +1,6 @@
 import './Contact.css'
+import IconGit from '../../../public/Icon/Github.png' 
+import LinkedIn from '../../../public/Icon/linkedin.png' 
 
 function Contact(){
     return(
@@ -12,10 +14,10 @@ function Contact(){
             </div>
             <div class="contact-right">
                 <a href="https://github.com/Fiw0202">
-                    <img src="/src/assets/Icon/Github.png" title="GitHub"/>
+                    <img src={IconGit} title="GitHub"/>
                 </a>
                 <a href="https://www.linkedin.com/in/sadayu-samrit/">
-                <img src="/src/assets/Icon/linkedin.png" title="Linkedin"/>
+                <img src={LinkedIn} title="Linkedin"/>
             </a>
             </div>
         </div>

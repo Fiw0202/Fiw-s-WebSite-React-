@@ -1,4 +1,7 @@
 import './Project.css'
+import FitClub from '../../../public/BackGround/FitClub.png'
+import Jamming from '../../../public/BackGround/jamming.png'
+import Colmar from '../../../public/BackGround/COLMAR.png'
 
 function Project(){
     return(
@@ -9,7 +12,7 @@ function Project(){
                 <a href="https://jsd-final-frontend.vercel.app/login" target="_blank">
                     <h1>FIT-Club (Activity Record website)</h1>
                 </a>
-                <img src="/src/assets/BackGround/FitClub.png" />
+                <img src={FitClub} />
                 <p>FIT-Club website is record activities for exercises such as running, walking, cycling, swimming,
                     and hike users can save data on FIT-Club and view historical data.
                 </p>
@@ -19,7 +22,7 @@ function Project(){
                 <a href="https://jamming-two.vercel.app" target="_blank">
                     <h1>Jamming (Playlist App with the Spotify API) </h1>
                 </a>
-                <img src="/src/assets/BackGround/jamming.png" />
+                <img src={Jamming} />
                 <p>Jamming is a website users can search for songs or artists and create playlists using React and
                     the Spotify API.
                 </p>
@@ -29,7 +32,7 @@ function Project(){
                 <a href="https://colmar-academy-eight.vercel.app" target="_blank">
                     <h1>Colmar Academy (BUILD A WEBSITE WITH HTML, CSS)</h1>
                 </a>
-                <img src="/src/assets/BackGround/COLMAR.png" />
+                <img src={Colmar} />
                 <p>Designing and creating the landing page by making informed design decisions about color and
                     typography using HTML and CSS.</p>
 

@@ -1,4 +1,16 @@
 import "./Skills.css";
+import Html from '../../../public/Icon/HTML5.png'
+import Css from '../../../public/Icon/CSS.png'
+import JavaScript from '../../../public/Icon/Js.png'
+import NodeJS from '../../../public/Icon/Node.png'
+import React from '../../../public/Icon/REACT.png'
+import Express from '../../../public/Icon/Express.png'
+import MongoDB from '../../../public/Icon/MongoDB.png'
+import VsCode from '../../../public/Icon/Vscode.png'
+import Git from '../../../public/Icon/Git.png'
+import GitHub from '../../../public/Icon/Github.png'
+import Figma from '../../../public/Icon/Figma-logo.svg'
+
 
 function Skills() {
   return (
@@ -7,31 +19,31 @@ function Skills() {
         <h1 id="skillH">Skills</h1>
         <div class="skill-icon">
           <figure>
-            <img src="/src/assets/Icon/HTML5.png" alt="HTML" />
+            <img src={Html} alt="HTML" />
             <figcaption>HTML5</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/CSS.png" />
+            <img src={Css} alt="CSS"/>
             <figcaption>CSS</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/JS.png" />
+            <img src={JavaScript} />
             <figcaption>JavaScript</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/node.png" />
+            <img src={NodeJS} />
             <figcaption>NodeJS</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/REACT.png" />
+            <img src={React} />
             <figcaption>REACT</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/Express.png" />
+            <img src={Express} />
             <figcaption>Express</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/MongoDB.png" />
+            <img src={MongoDB} />
             <figcaption>MongoDB</figcaption>
           </figure>
         </div>
@@ -40,19 +52,19 @@ function Skills() {
         <h1 id="toolsH">Tools</h1>
         <div class="tools-icon">
           <figure>
-            <img src="/src/assets/Icon/Vscode.png" alt="HTML" />
+            <img src={VsCode} alt="VsCode" />
             <figcaption>VScode</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/Git.png" />
+            <img src={Git}/>
             <figcaption>Git</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/Github.png" />
+            <img src={GitHub} />
             <figcaption>Git Hub</figcaption>
           </figure>
           <figure>
-            <img src="/src/assets/Icon/Figma-logo.svg" />
+            <img src={Figma} />
             <figcaption>Figma</figcaption>
           </figure>
         </div>
