@@ -1,5 +1,5 @@
 import "./Personal.css";
-import MySelf from "../../assets/mySelf.jpg"
+import MySelf from "../../../public/myself.jpg"
 
 function Personal() {
   return (
