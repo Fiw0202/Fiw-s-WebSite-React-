@@ -1,5 +1,5 @@
 import "./Personal.css";
-import mySelf from "../../assets/mySelf.jpg"
+import MySelf from "../../assets/mySelf.jpg"
 
 function Personal() {
   return (
@@ -28,7 +28,7 @@ function Personal() {
         </div>
       </div>
       <div class="personal-right">
-        <img src={mySelf} alt="mypic" id="mypic" />
+        <img src={MySelf} alt="mypic" id="mypic" />
       </div>
     </div>
   );
