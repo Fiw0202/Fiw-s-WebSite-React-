@@ -4,7 +4,7 @@ import "./Skills.css";
 // import JavaScript from '../../../public/Icon/Js.png'
 // import NodeJS from '../../../public/Icon/Node.png'
 // import React from '../../../public/Icon/REACT.png'
-// import Express from '../../../public/Icon/Express.png'
+import Express from '../../../public/Icon/Express.png'
 import MongoDB from '../../../public/Icon/MongoDB.png'
 import VsCode from '../../../public/Icon/Vscode.png'
 import Git from '../../../public/Icon/Git.png'
@@ -39,7 +39,7 @@ function Skills() {
             <figcaption>REACT</figcaption>
           </figure>
           <figure>
-            {/*<img src={Express} />*/}
+            <img src={Express} />
             <figcaption>Express</figcaption>
           </figure>
           <figure>
