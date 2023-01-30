@@ -1,15 +1,15 @@
 import "./Skills.css";
 import Html from '../../assets/Icon/HTML5.png'
-import Css from '../../../public/Icon/CSS.png'
-import JsIm from '../../../public/Icon/Js.png'
-import NodeJS from '../../../public/Icon/node.png'
-import React from '../../../public/Icon/REACT.png'
-import Express from '../../../public/Icon/Express.png'
-import MongoDB from '../../../public/Icon/MongoDB.png'
-import VsCode from '../../../public/Icon/Vscode.png'
-import Git from '../../../public/Icon/Git.png'
-import GitHub from '../../../public/Icon/Github.png'
- import Figma from '../../../public/Icon/Figma-logo.svg'
+// import Css from '../../../public/Icon/CSS.png'
+// import JsIm from '../../../public/Icon/Js.png'
+// import NodeJS from '../../../public/Icon/node.png'
+// import React from '../../../public/Icon/REACT.png'
+// import Express from '../../../public/Icon/Express.png'
+// import MongoDB from '../../../public/Icon/MongoDB.png'
+// import VsCode from '../../../public/Icon/Vscode.png'
+// import Git from '../../../public/Icon/Git.png'
+// import GitHub from '../../../public/Icon/Github.png'
+//  import Figma from '../../../public/Icon/Figma-logo.svg'
 
 
 function Skills() {
@@ -22,7 +22,7 @@ function Skills() {
             <img src={Html}/>
             <figcaption>HTML5</figcaption>
           </figure>
-          <figure>
+          {/* <figure>
             <img src={Css} alt="CSS"/>
             <figcaption>CSS</figcaption>
           </figure>
@@ -66,7 +66,7 @@ function Skills() {
           <figure>
             <img src={Figma} />
             <figcaption>Figma</figcaption>
-          </figure>
+          </figure> */}
         </div>
       </div>
     </div>
