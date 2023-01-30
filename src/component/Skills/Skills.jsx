@@ -9,7 +9,7 @@ import "./Skills.css";
 // import VsCode from '../../../public/Icon/Vscode.png'
 // import Git from '../../../public/Icon/Git.png'
 // import GitHub from '../../../public/Icon/Github.png'
-// import Figma from '../../../public/Icon/Figma-logo.svg'
+ import Figma from '../../../public/Icon/Figma-logo.svg'
 
 
 function Skills() {
@@ -64,7 +64,7 @@ function Skills() {
             <figcaption>Git Hub</figcaption>
           </figure>
           <figure>
-            {/*<img src={Figma} />*/}
+            <img src={Figma} />
             <figcaption>Figma</figcaption>
           </figure>
         </div>
