@@ -6,7 +6,7 @@ import "./Skills.css";
 // import React from '../../../public/Icon/REACT.png'
 // import Express from '../../../public/Icon/Express.png'
 // import MongoDB from '../../../public/Icon/MongoDB.png'
-// import VsCode from '../../../public/Icon/Vscode.png'
+import VsCode from '../../../public/Icon/Vscode.png'
 import Git from '../../../public/Icon/Git.png'
 import GitHub from '../../../public/Icon/Github.png'
  import Figma from '../../../public/Icon/Figma-logo.svg'
@@ -52,7 +52,7 @@ function Skills() {
         <h1 id="toolsH">Tools</h1>
         <div class="tools-icon">
           <figure>
-            {/*<img src={VsCode} alt="VsCode" />*/}
+            <img src={VsCode} alt="VsCode" />
             <figcaption>VScode</figcaption>
           </figure>
           <figure>
