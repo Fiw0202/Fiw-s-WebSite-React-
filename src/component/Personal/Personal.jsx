@@ -28,7 +28,7 @@ function Personal() {
         </div>
       </div>
       <div class="personal-right">
-        <img src={MySelf} alt="mypic" id="mypic" />
+        {/*<img src={MySelf} alt="mypic" id="mypic" />*/}
       </div>
     </div>
   );

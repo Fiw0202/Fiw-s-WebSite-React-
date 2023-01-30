@@ -14,10 +14,10 @@ function Contact(){
             </div>
             <div class="contact-right">
                 <a href="https://github.com/Fiw0202">
-                    <img src={IconGit} title="GitHub"/>
+                    {/*<img src={IconGit} title="GitHub"/>*/}
                 </a>
                 <a href="https://www.linkedin.com/in/sadayu-samrit/">
-                <img src={LinkedIn} title="Linkedin"/>
+                {/*<img src={LinkedIn} title="Linkedin"/>*/}
             </a>
             </div>
         </div>
