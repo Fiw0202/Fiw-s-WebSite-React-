@@ -1,7 +1,7 @@
 import "./Skills.css";
 import Html from "../../assets/Icon/HTML5.png";
 import Css from "../../assets/Icon/CSS.png";
-//import JsIm from "../../assets/Icon/Js.png";
+import Javascript from "../../assets/Icon/Js.png";
 import NodeJS from "../../assets/Icon/node.png";
 import React from "../../assets/Icon/REACT.png";
 import Express from "../../assets/Icon/Express.png";
@@ -25,10 +25,10 @@ function Skills() {
             <img src={Css} />
             <figcaption>CSS</figcaption>
           </figure>
-          {/* <figure>
-            <img src={JsIm} />
+          <figure>
+            <img src={Javascript} />
             <figcaption>JavaScript</figcaption>
-          </figure> */}
+          </figure>
           <figure>
             <img src={NodeJS} />
             <figcaption>NodeJS</figcaption>
