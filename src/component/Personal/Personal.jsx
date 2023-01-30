@@ -28,7 +28,7 @@ function Personal() {
         </div>
       </div>
       <div class="personal-right">
-        <img ssrc={`${process.env.PUBLIC_URL}/icon/mySelf.jpg`} alt="mypic" id="mypic" />
+        <img ssrc={`${process.env.PUBLIC_URL}/mySelf.jpg`} alt="mypic" id="mypic" />
       </div>
     </div>
   );
