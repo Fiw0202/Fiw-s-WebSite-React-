@@ -1,8 +1,8 @@
 import "./Skills.css";
 import Html from '../../../public/Icon/HTML5.png'
 // import Css from '../../../public/Icon/CSS.png'
-// import JavaScript from '../../../public/Icon/Js.png'
-import NodeJS from '../../../public/Icon/Node.png'
+import JavaScript from '../../../public/Icon/Js.png'
+//import NodeJS from '../../../public/Icon/Node.png'
 import React from '../../../public/Icon/REACT.png'
 import Express from '../../../public/Icon/Express.png'
 import MongoDB from '../../../public/Icon/MongoDB.png'
@@ -27,11 +27,11 @@ function Skills() {
             <figcaption>CSS</figcaption>
           </figure>
           <figure>
-            {/*<img src={JavaScript} />*/}
+            <img src={JavaScript} />
             <figcaption>JavaScript</figcaption>
           </figure>
           <figure>
-            <img src={NodeJS} />
+            {/*<img src={NodeJS} />*/}
             <figcaption>NodeJS</figcaption>
           </figure>
           <figure>
