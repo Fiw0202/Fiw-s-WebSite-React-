@@ -1,16 +1,15 @@
 import "./Skills.css";
-import Html from '../../assets/Icon/HTML5.png'
-// import Css from '../../../public/Icon/CSS.png'
-// import JsIm from '../../../public/Icon/Js.png'
-// import NodeJS from '../../../public/Icon/node.png'
-// import React from '../../../public/Icon/REACT.png'
-// import Express from '../../../public/Icon/Express.png'
-// import MongoDB from '../../../public/Icon/MongoDB.png'
-// import VsCode from '../../../public/Icon/Vscode.png'
-// import Git from '../../../public/Icon/Git.png'
-// import GitHub from '../../../public/Icon/Github.png'
-//  import Figma from '../../../public/Icon/Figma-logo.svg'
-
+import Html from "../../assets/Icon/HTML5.png";
+import Css from "../../assets/Icon/CSS.png";
+import JsIm from "../../assets/Icon/Js.png";
+import NodeJS from "../../assets/Icon/node.png";
+import React from "../../assets/Icon/REACT.png";
+import Express from "../../assets/Icon/Express.png";
+import MongoDB from "../../assets/Icon/MongoDB.png";
+import VsCode from "../../assets/Icon/Vscode.png";
+import Git from "../../assets/Icon/Git.png";
+import GitHub from "../../assets/Icon/Github.png";
+import Figma from "../../assets/Icon/Figma-logo.svg";
 
 function Skills() {
   return (
@@ -19,11 +18,11 @@ function Skills() {
         <h1 id="skillH">Skills</h1>
         <div class="skill-icon">
           <figure>
-            <img src={Html}/>
+            <img src={Html} />
             <figcaption>HTML5</figcaption>
           </figure>
-          {/* <figure>
-            <img src={Css} alt="CSS"/>
+          <figure>
+            <img src={Css} />
             <figcaption>CSS</figcaption>
           </figure>
           <figure>
@@ -52,11 +51,11 @@ function Skills() {
         <h1 id="toolsH">Tools</h1>
         <div class="tools-icon">
           <figure>
-            <img src={VsCode} alt="VsCode" />
+            <img src={VsCode} />
             <figcaption>VScode</figcaption>
           </figure>
           <figure>
-            <img src={Git}/>
+            <img src={Git} />
             <figcaption>Git</figcaption>
           </figure>
           <figure>
@@ -66,10 +65,10 @@ function Skills() {
           <figure>
             <img src={Figma} />
             <figcaption>Figma</figcaption>
-          </figure> */}
+          </figure>
         </div>
       </div>
     </div>
   );
 }
-export default Skills
+export default Skills;
