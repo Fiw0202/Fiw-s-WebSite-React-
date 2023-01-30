@@ -1,5 +1,5 @@
 import "./Skills.css";
-// import Html from '../../../public/Icon/HTML5.png'
+import Html from '../../../public/Icon/HTML5.png'
 // import Css from '../../../public/Icon/CSS.png'
 // import JavaScript from '../../../public/Icon/Js.png'
 //import NodeJS from '../../../public/Icon/Node.png'
@@ -19,7 +19,7 @@ function Skills() {
         <h1 id="skillH">Skills</h1>
         <div class="skill-icon">
           <figure>
-            {/*<img src={Html} alt="HTML" />*/}
+            <img src={Html}/>
             <figcaption>HTML5</figcaption>
           </figure>
           <figure>
