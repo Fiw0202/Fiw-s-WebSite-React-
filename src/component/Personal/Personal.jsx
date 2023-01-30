@@ -1,5 +1,5 @@
 import "./Personal.css";
-//import MySelf from "../../../public/myself.jpg"
+import MySelf from "../../assets/mySelf.jpg"
 
 function Personal() {
   return (
@@ -28,7 +28,7 @@ function Personal() {
         </div>
       </div>
       <div class="personal-right">
-        <img src={`${process.env.PUBLIC_URL}/mySelf.jpg`} alt="mypic" id="mypic" />
+        <img src={MySelf} alt="mypic" id="mypic" />
       </div>
     </div>
   );
