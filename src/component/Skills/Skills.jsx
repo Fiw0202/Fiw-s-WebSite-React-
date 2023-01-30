@@ -1,7 +1,7 @@
 import "./Skills.css";
 import Html from '../../../public/Icon/HTML5.png'
 // import Css from '../../../public/Icon/CSS.png'
-import JavaScript from '../../../public/Icon/Js.png'
+import JsImage from '../../../public/Icon/Js.png'
 //import NodeJS from '../../../public/Icon/Node.png'
 import React from '../../../public/Icon/REACT.png'
 import Express from '../../../public/Icon/Express.png'
@@ -27,7 +27,7 @@ function Skills() {
             <figcaption>CSS</figcaption>
           </figure>
           <figure>
-            <img src={JavaScript} />
+            <img src={JsImage} />
             <figcaption>JavaScript</figcaption>
           </figure>
           <figure>
