@@ -3,7 +3,7 @@ import "./Skills.css";
 // import Css from '../../../public/Icon/CSS.png'
 // import JavaScript from '../../../public/Icon/Js.png'
 // import NodeJS from '../../../public/Icon/Node.png'
-// import React from '../../../public/Icon/REACT.png'
+import React from '../../../public/Icon/REACT.png'
 import Express from '../../../public/Icon/Express.png'
 import MongoDB from '../../../public/Icon/MongoDB.png'
 import VsCode from '../../../public/Icon/Vscode.png'
@@ -35,7 +35,7 @@ function Skills() {
             <figcaption>NodeJS</figcaption>
           </figure>
           <figure>
-            {/*<img src={React} />*/}
+            <img src={React} />
             <figcaption>REACT</figcaption>
           </figure>
           <figure>
