@@ -1,6 +1,6 @@
 import './Contact.css'
-import IconGit from '../../../public/Icon/Github.png' 
-import LinkedIn from '../../../public/Icon/linkedin.png' 
+// import IconGit from '../../../public/Icon/Github.png' 
+// import LinkedIn from '../../../public/Icon/linkedin.png' 
 
 function Contact(){
     return(
