@@ -7,7 +7,7 @@ import "./Skills.css";
 // import Express from '../../../public/Icon/Express.png'
 // import MongoDB from '../../../public/Icon/MongoDB.png'
 // import VsCode from '../../../public/Icon/Vscode.png'
-// import Git from '../../../public/Icon/Git.png'
+import Git from '../../../public/Icon/Git.png'
 import GitHub from '../../../public/Icon/Github.png'
  import Figma from '../../../public/Icon/Figma-logo.svg'
 
@@ -56,7 +56,7 @@ function Skills() {
             <figcaption>VScode</figcaption>
           </figure>
           <figure>
-            {/*<img src={Git}/>*/}
+            <img src={Git}/>
             <figcaption>Git</figcaption>
           </figure>
           <figure>
